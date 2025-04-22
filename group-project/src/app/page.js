@@ -1,13 +1,11 @@
 'use client'
 
-import React, { useState } from "react";
+import React from "react";
 import styles from "./page.module.css"
 import Link from "next/link"
 import Footer from "../components/Footer";
 
 export default function Home() {
-  const [title, setTitle] = useState("Home");
-
   return (
     <div className = {styles.page} style={{ margin: '24px' }}>
       <h1 style = {{textShadow: '2px 2px black', fontSize: '60px', textAlign: 'center', padding: '4px' }}>DOJI'S</h1>
