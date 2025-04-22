@@ -1,0 +1,12 @@
+.page {
+  background: #000438;
+  background: linear-gradient(90deg, rgba(0, 4, 56, 0.7) 0%, rgba(30, 0, 70, 0.55) 50%, rgba(150, 26, 4, 0.4) 100%);
+  background-attachment: absolute;
+}
+.nav:hover {
+  background-color: rgba(16, 0, 29, 0.356)
+}
+.center {
+  margin-left: auto;
+  margin-right: auto
+}
